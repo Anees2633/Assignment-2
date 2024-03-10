@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <div class="nav">
+        
+        <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Contact us</li>
+            <li>Projects</li>
+        </ul>
+    </div>
+</header>
+    <section class="first">
+        <h1>List and it Attributes</h1>
+        <div class="list">
+            <h3>High level programming language</h3>
+            <ul>
+                <li>Python</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>C Sharp</li>
+            </ul>
+            To learn more about Programming Language
+            <a href="#">Click Here</a>
+        </div>
+        <div class="list2">
+            <h1>Web Development</h1>
+            <h3>Frontend Languages</h3>
+            <ol>
+                <li>html</li>
+                <li>CSS(Bootstrap,Tailwind)</li>
+                <li>JavaScript(React)</li>
+
+            </ol>
+            <h3>Backend Languages</h3>
+            <ol>
+                <p>Choose anyone</p>
+                <li>Python(Django)</li>
+                <li>JavaScript(Node.js,Next.js Express.js)</li>
+                <li>php</li>
+            </ol>
+            To learn more about Web Development
+            <a href="#">Click Here</a> 
+        </div>
+        <h1>Table and its Attributes</h1>
+        <div>
+        <table class="stu">
+            <h2>Student Details</h2>
+            <tr>
+                <th>Name</th>
+                <th>Registration #</th>
+                <th>Section</th>
+                <th>Degree</th>
+                <th>Subject</th>
+            </tr>
+            <tr>
+                <td>Muhammad Anees</td>
+                <td>2021-ag-5555</td>
+                <td>A</td>
+                <td>Computer Science</td>
+                <td>Computer</td>
+            </tr>
+            <tr>
+                <td>Muhammad Anees</td>
+                <td>2021-ag-5555</td>
+                <td>A</td>
+                <td>Computer Science</td>
+                <td>Computer</td>
+            </tr>
+            <tr>
+                <td>Muhammad Anees</td>
+                <td>2021-ag-5555</td>
+                <td>A</td>
+                <td>Computer Science</td>
+                <td>Computer</td>
+            </tr>
+            <tr>
+                <td>Muhammad Anees</td>
+                <td>2021-ag-5555</td>
+                <td>A</td>
+                <td>Computer Science</td>
+                <td>Computer</td>
+            </tr>
+        </table>
+    </div>
+    </section>
+
+    <section class="second">
+        <h1>Application Form</h1>
+        <form action="/submit-admission" method="post">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+          
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+              <option value="">Select Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+          
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+          
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country" required>
+          
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+          
+            <label for="program">Program of Interest:</label>
+            <select id="program" name="program" required>
+              <option value="">Select Program</option>
+              <option value="Computer Science">Computer Science</option>
+              <option value="Engineering">Engineering</option>
+              <option value="Business Administration">Business Administration</option>
+              <!-- Add more program options as needed -->
+            </select>
+          
+            <label for="qualification">Qualification:</label>
+            <textarea id="qualification" name="qualification" rows="4" required></textarea>
+          
+            <label for="references">References:</label>
+            <textarea id="references" name="references" rows="4"></textarea>
+          <br>
+            <input type="submit" value="Submit Application">
+          </form>
+    </section>
+    
+</body>
+</html>
